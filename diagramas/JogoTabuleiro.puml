@@ -1,0 +1,17 @@
+class JogoTabuleiro {
+    nome: String
+    qtdeMinimaJogadores: Int
+    qtdeMaximaJogadores: Int
+    idadeMinima: Int
+    duracaoMediaMinutos: Int
+    anoLancamento: Int
+}
+
+object "catan:JogoTabuleiro" as catan {
+    nome: "Catan: O Jogo"
+    qtdeMinimaJogadores: 3
+    qtdeMaximaJogadores: 4
+    idadeMinima: 10
+    duracaoMediaMinutos: 90
+    anoLancamento: 1995
+}
