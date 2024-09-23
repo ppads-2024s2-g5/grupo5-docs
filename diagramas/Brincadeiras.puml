@@ -1,0 +1,13 @@
+class Brincadeira {
+    nome
+    qtdeMinimaJogadores
+    qtdeMaximaJogadores
+    habilidadePrincipal
+}
+
+object "escondeEsconde:Brincadeira" as esconde {
+    nome: "Esconde-esconde"
+    qtdeMinimaJogadores: 2
+    qtdeMaximaJogadores: 10
+    habilidadePrincipal: "esconder"
+}
