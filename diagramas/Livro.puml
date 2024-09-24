@@ -1,0 +1,13 @@
+class Livro {
+    titulo
+    autor
+    numeroDePaginas
+    genero
+}
+
+object "harryPotter:Livro" as hp {
+    titulo: "Harry Potter e a Pedra Filosofal"
+    autor: "J.K. Rowling"
+    numeroDePaginas: 223
+    genero: "Fantasia"
+}
