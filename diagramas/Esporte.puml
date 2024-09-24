@@ -1,0 +1,13 @@
+class Esporte {
+    nome
+    qtdeMinimaJogadores
+    qtdeMaximaJogadores
+    tipo
+}
+
+object "futebol:Esporte" as futebol {
+    nome: "Futebol"
+    qtdeMinimaJogadores: 10
+    qtdeMaximaJogadores: 22
+    tipo: "Coletivo"
+}
